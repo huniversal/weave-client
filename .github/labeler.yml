@@ -1,0 +1,49 @@
+area: github:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/**"
+          - ".coderabbit.yaml"
+
+area: dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "package.json"
+          - "pnpm-lock.yaml"
+          - "pnpm-workspace.yaml"
+
+area: app-shell:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/main/**"
+          - "src/preload/**"
+          - "src/renderer/app/**"
+
+area: pages:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/renderer/pages/**"
+
+area: features:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/renderer/features/**"
+
+area: entities:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/renderer/entities/**"
+
+area: shared:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/renderer/shared/**"
+
+type: docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "*.md"
+
+type: ci:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ".github/workflows/**"

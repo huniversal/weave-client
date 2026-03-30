@@ -1,0 +1,43 @@
+name: Bug Report
+description: 동작 이상이나 회귀를 기록
+title: "[Bug] "
+labels:
+  - type: bug
+  - status: needs-triage
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 요약
+      description: 문제가 무엇인지 한 줄로 정리
+      placeholder: 대시보드에서 에이전트 선택 시 채팅 패널이 전환되지 않음
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 절차
+      description: 문제가 재현되는 순서 작성
+      placeholder: |
+        1. 대시보드 진입
+        2. 에이전트 카드 클릭
+        3. 채팅 패널 확인
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 환경
+      placeholder: macOS 15, Node 22, pnpm 10.15.0

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "type: feature",
+    "color": "1d76db",
+    "description": "신규 기능 작업"
+  },
+  {
+    "name": "type: bug",
+    "color": "d73a4a",
+    "description": "버그 또는 회귀 수정"
+  },
+  {
+    "name": "type: docs",
+    "color": "0e8a16",
+    "description": "문서 변경"
+  },
+  {
+    "name": "type: ci",
+    "color": "5319e7",
+    "description": "CI/CD 및 자동화 변경"
+  },
+  {
+    "name": "status: needs-triage",
+    "color": "fbca04",
+    "description": "초기 분류 필요"
+  },
+  {
+    "name": "status: ready",
+    "color": "0e8a16",
+    "description": "작업 준비 완료"
+  },
+  {
+    "name": "status: blocked",
+    "color": "b60205",
+    "description": "외부 의존성으로 진행 불가"
+  },
+  {
+    "name": "area: github",
+    "color": "c2e0c6",
+    "description": "GitHub 설정 및 자동화"
+  },
+  {
+    "name": "area: dependencies",
+    "color": "bfdadc",
+    "description": "패키지 및 의존성 변경"
+  },
+  {
+    "name": "area: app-shell",
+    "color": "d4c5f9",
+    "description": "Electron 앱 셸과 엔트리 변경"
+  },
+  {
+    "name": "area: pages",
+    "color": "f9d0c4",
+    "description": "페이지 계층 변경"
+  },
+  {
+    "name": "area: features",
+    "color": "fef2c0",
+    "description": "기능 계층 변경"
+  },
+  {
+    "name": "area: entities",
+    "color": "c5def5",
+    "description": "엔티티 계층 변경"
+  },
+  {
+    "name": "area: shared",
+    "color": "e4e669",
+    "description": "공통 계층 변경"
+  }
+]

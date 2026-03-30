@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product Discussion
+    url: https://github.com/huniversal/weave-client/discussions
+    about: 요구사항 논의나 방향성 질문은 Discussions 사용
