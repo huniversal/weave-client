@@ -4,7 +4,4 @@ dist-electron
 .electron-build
 out
 release
-.DS_Store
-*.log
-.history
-codex.md
+pnpm-lock.yaml

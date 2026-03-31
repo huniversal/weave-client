@@ -5,8 +5,7 @@ export const shell = style({
   padding: "48px",
   background: "linear-gradient(180deg, #f4f7fb 0%, #ffffff 100%)",
   color: "#17202a",
-  fontFamily:
-    '"Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif'
+  fontFamily: '"Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif'
 });
 
 export const panel = style({
