@@ -41,3 +41,34 @@ export const body = style({
   lineHeight: 1.7,
   color: "#445566"
 });
+
+export const metaGrid = style({
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+  gap: "16px",
+  marginTop: "32px"
+});
+
+export const metaItem = style({
+  margin: 0,
+  padding: "18px 20px",
+  borderRadius: "18px",
+  backgroundColor: "#f7f9fc",
+  border: "1px solid #e3eaf2"
+});
+
+export const metaLabel = style({
+  margin: 0,
+  fontSize: "12px",
+  fontWeight: 700,
+  letterSpacing: "0.08em",
+  textTransform: "uppercase",
+  color: "#6f8194"
+});
+
+export const metaValue = style({
+  margin: "10px 0 0",
+  fontSize: "16px",
+  fontWeight: 600,
+  color: "#17202a"
+});
