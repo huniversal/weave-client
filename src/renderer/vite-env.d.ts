@@ -4,11 +4,11 @@ interface ElectronHealth {
   appName: string;
   electronVersion: string;
   nodeVersion: string;
-  platform: NodeJS.Platform;
+  platform: NodeJS.Platform | "browser";
 }
 
 interface Window {
-  electronAPI: {
+  electronAPI?: {
     getHealth: () => Promise<ElectronHealth>;
   };
 }
