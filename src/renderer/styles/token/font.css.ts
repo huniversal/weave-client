@@ -14,12 +14,5 @@ export const font = {
     regular: "400",
     medium: "500",
     semibold: "600"
-  },
-  lineHeight: {
-    tight: "120%",
-    normal: "130%"
-  },
-  letterSpacing: {
-    tight: "-0.025em"
   }
 } as const;
