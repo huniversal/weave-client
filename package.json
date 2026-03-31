@@ -5,8 +5,11 @@
   "packageManager": "pnpm@10.15.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node ./scripts/dev-electron.mjs",
+    "dev:renderer": "vite",
     "build": "pnpm typecheck && tsc -p tsconfig.electron.json && vite build",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "electron:start": "pnpm build:electron && electron .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "hooks:install": "lefthook install",
@@ -15,6 +18,7 @@
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.renderer.json --noEmit && tsc -p tsconfig.electron.json --noEmit"
   },
+  "main": ".electron-build/main/index.js",
   "dependencies": {
     "@tanstack/react-query": "^5.95.2",
     "axios": "^1.14.0",
